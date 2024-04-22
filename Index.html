@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty Products Showcase</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-r from-pink-500 to-purple-500">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 p-5 text-white font-bold text-lg">
+    <div class="container mx-auto flex justify-between items-center">
+      <div>Logo</div>
+      <div class="space-x-4">
+        <a href="#" class="hover:underline">Brand Name</a>
+        <!-- Repeat for other navigation items -->
+      </div>
+      <div class="space-x-4">
+        <a href="#" class="hover:underline">Sign In</a>
+        <a href="#" class="px-4 py-2 bg-pink-500 rounded">Subscribe</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Showcase -->
+  <div class="container mx-auto p-10">
+    <div class="text-center text-white mb-10">
+      <h1 class="text-5xl font-bold mb-4">Welcome to your site</h1>
+      <p class="text-lg">This is entirely a test site, no buttons will lead to another point, all products and pictures were created in Photoshopped and licensed MIT.</p>
+    </div>
+    <div class="grid grid-cols-2 gap-10">
+      <!-- Main product -->
+      <div>
+        <img src="FirstGirl.png" alt="Main product image: Compact Highlighter and lipstick" class="mb-4">
+        <h2 class="text-xl text-white">Pink Highlighter</h2>
+        <button class="bg-pink-500 px-4 py-2 rounded mt-4 hover:bg-purple-300">Purchase</button>
+      </div>
+      <div>
+        <img src="SecondGirl.png" alt="Main product image: Compact powder and lipstick" class="mb-4">
+        <h2 class="text-xl text-white">Beauty Product</h2>
+        <button class="bg-pink-500 px-4 py-2 rounded mt-4 hover:bg-purple-300">Purchase</button>
+      </div>
+      <!-- Repeat for secondary products -->
+    </div>
+  </div>
+
+  <!-- Product Grid -->
+  <div class="grid grid-cols-3 gap-10 p-10">
+    <!-- Product Card -->
+    <div class="bg-pink-400 p-4 rounded-lg">
+      <img src="pink-highlighter.png" alt="Product image: Cosmetic product in a pink container" class="mb-4">
+      <h3 class="text-white text-lg mb-2">Pink Highlighter</h3>
+      <p class="text-white text-sm">Short description.</p>
+      <button class="bg-pink-500 px-4 py-2 rounded mt-4 hover:bg-purple-300">View More</button>
+    </div>
+    <div class="bg-pink-400 p-4 rounded-lg">
+        <img src="pink-lipstick.png" alt="Product image: Cosmetic product in a pink container" class="mb-4">
+        <h3 class="text-white text-lg mb-2">Pink Lipstick</h3>
+        <p class="text-white text-sm">Short description.</p>
+        <button class="bg-pink-500 px-4 py-2 rounded mt-4 hover:bg-purple-300">View More</button>
+    </div>
+    <div class="bg-pink-400 p-4 rounded-lg">
+        <img src="pink-blush.png" alt="Product image: Cosmetic product in a pink container" class="mb-4">
+        <h3 class="text-white text-lg mb-2">Product Name</h3>
+        <p class="text-white text-sm">Short description.</p>
+        <button class="bg-pink-500 px-4 py-2 rounded mt-4 hover:bg-purple-300">View More</button>
+    </div>
+    <!-- Repeat for other products -->
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 p-10 text-white text-center">
+    Footer content
+  </footer>
+</body>
+
+</html>
